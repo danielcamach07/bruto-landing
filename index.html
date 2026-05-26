@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BRUTO — Ropa técnica para runners, hyroxers y crossfitters. Inspirada en la Ciudad de México.">
+  <title>BRUTO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#inicio" class="nav__logo">BRUTO</a>
+    <ul class="nav__links">
+      <li><a href="#colecciones">Colecciones</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#waitlist" class="nav__cta">Únete</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Ciudad de México &mdash; 2026</p>
+      <h1 class="hero__title">
+        NACIDO<br>
+        EN EL<br>
+        CONCRETO
+      </h1>
+      <p class="hero__sub">Ropa técnica para quienes entrenan donde la ciudad no te da tregua.</p>
+      <a href="#waitlist" class="btn btn--primary">Únete a la lista</a>
+    </div>
+    <div class="hero__disciplines" aria-label="Disciplinas">
+      <span>RUNNING</span>
+      <span class="sep" aria-hidden="true">·</span>
+      <span>HYROX</span>
+      <span class="sep" aria-hidden="true">·</span>
+      <span>CROSSFIT</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="nosotros">
+    <div class="about__grid">
+      <div class="about__label" aria-hidden="true">
+        <span>001</span>
+        <span>Nosotros</span>
+      </div>
+      <div class="about__content">
+        <h2 class="about__title">HECHO<br>PARA<br>MOVERSE</h2>
+        <p class="about__text">
+          BRUTO nació en las calles de la Ciudad de México. Diseñada para runners, hyroxers y crossfitters que entrenan donde otros no se atreven.
+        </p>
+        <p class="about__text">
+          Cada colección lleva el nombre de lo que nos rodea: el agave que crece entre grietas, el lago que existió antes que la ciudad, el concreto que pisamos, el ladrillo que nos construyó.
+        </p>
+        <p class="about__text about__text--accent">
+          No vendemos ropa. Vendemos la mentalidad de seguir aunque la ciudad te ponga en contra.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section class="collections" id="colecciones">
+    <div class="collections__header">
+      <div class="collections__label" aria-hidden="true">
+        <span>002</span>
+        <span>Colecciones</span>
+      </div>
+      <h2 class="collections__title">LAS CUATRO<br>COLECCIONES</h2>
+    </div>
+    <div class="collections__grid">
+
+      <article class="collection collection--agave">
+        <div class="collection__swatch" aria-hidden="true"></div>
+        <div class="collection__body">
+          <span class="collection__number" aria-hidden="true">01</span>
+          <h3 class="collection__name">AGAVE</h3>
+          <p class="collection__desc">Verde intenso. Como el maguey que crece en tierra seca y nunca se rinde.</p>
+          <span class="collection__tag">Próximamente</span>
+        </div>
+      </article>
+
+      <article class="collection collection--lago">
+        <div class="collection__swatch" aria-hidden="true"></div>
+        <div class="collection__body">
+          <span class="collection__number" aria-hidden="true">02</span>
+          <h3 class="collection__name">LAGO</h3>
+          <p class="collection__desc">Azul profundo. El agua que corrió bajo la ciudad antes de que existiera.</p>
+          <span class="collection__tag">Próximamente</span>
+        </div>
+      </article>
+
+      <article class="collection collection--concreto">
+        <div class="collection__swatch" aria-hidden="true"></div>
+        <div class="collection__body">
+          <span class="collection__number" aria-hidden="true">03</span>
+          <h3 class="collection__name">CONCRETO</h3>
+          <p class="collection__desc">Gris absoluto. El color de todo lo que te rodea. El suelo que pisas cada día.</p>
+          <span class="collection__tag">Próximamente</span>
+        </div>
+      </article>
+
+      <article class="collection collection--ladrillo">
+        <div class="collection__swatch" aria-hidden="true"></div>
+        <div class="collection__body">
+          <span class="collection__number" aria-hidden="true">04</span>
+          <h3 class="collection__name">LADRILLO</h3>
+          <p class="collection__desc">Rojo tierra. La ciudad antes de la ciudad. El calor del esfuerzo.</p>
+          <span class="collection__tag">Próximamente</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist" id="waitlist">
+    <div class="waitlist__inner">
+      <div class="waitlist__label" aria-hidden="true">
+        <span>003</span>
+        <span>Únete</span>
+      </div>
+      <h2 class="waitlist__title">SÉ EL<br>PRIMERO<br>EN SABER</h2>
+      <p class="waitlist__sub">La tienda abre pronto. Déjanos tu correo y te avisamos antes que nadie.</p>
+      <form class="waitlist__form" id="waitlist-form" novalidate>
+        <input
+          type="email"
+          class="waitlist__input"
+          placeholder="tu@correo.com"
+          required
+          autocomplete="email"
+          aria-label="Correo electrónico"
+        >
+        <button type="submit" class="btn btn--primary">Entrar a la lista</button>
+      </form>
+      <p class="waitlist__success" id="waitlist-success" aria-live="polite"></p>
+      <p class="waitlist__note">Sin spam. Solo Bruto.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <span class="footer__logo">BRUTO</span>
+        <span class="footer__city">Ciudad de México</span>
+        <nav class="footer__social" aria-label="Redes sociales">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy; 2026 BRUTO. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
