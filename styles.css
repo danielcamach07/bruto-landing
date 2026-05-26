@@ -23,7 +23,7 @@
   --ladrillo:      #B84C26;
   --ladrillo-light:#D4622E;
 
-  --font-display: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --font-display: 'Archivo Black', 'Arial Narrow', sans-serif;
   --font-body:    'Space Grotesk', system-ui, sans-serif;
 
   --track-wide:  0.1em;
@@ -170,7 +170,7 @@ body {
 }
 
 .hero::after {
-  content: 'BRUTO';
+  content: 'ENTERO';
   position: absolute;
   bottom: -0.08em;
   right: -0.04em;
